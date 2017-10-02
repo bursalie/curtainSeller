@@ -1,0 +1,327 @@
+DEBUG 2017-10-01 13:10:37,656 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-10-01 13:10:37,674 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2017-10-01 13:10:37,684 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Amcacik.Web.AmcacikWebModule, Amcacik.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:10:37,688 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Amcacik.AmcacikDataModule, Amcacik.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:10:37,688 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:10:37,689 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:10:37,689 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:10:37,689 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:10:37,689 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:10:37,690 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:10:37,690 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Amcacik.AmcacikCoreModule, Amcacik.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:10:37,690 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Amcacik.AmcacikApplicationModule, Amcacik.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:10:37,690 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:10:37,690 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Amcacik.Api.AmcacikWebApiModule, Amcacik.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:10:37,690 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:10:37,691 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:10:37,691 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:10:37,691 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:10:37,691 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:10:37,696 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2017-10-01 13:10:38,036 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-10-01 13:10:38,036 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-10-01 13:10:38,036 [1    ] o.Configuration.LanguageManagementConfig - Converted Amcacik (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-10-01 13:10:38,036 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-10-01 13:10:38,389 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Amcacik.EntityFramework.AmcacikDbContext, Amcacik.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:10:41,377 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-10-01 13:10:41,429 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-10-01 13:10:41,436 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-10-01 13:10:41,439 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Amcacik
+DEBUG 2017-10-01 13:10:41,440 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-10-01 13:10:41,569 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-10-01 13:10:41,626 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2017-10-01 13:10:41,626 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Amcacik.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-10-01 13:10:41,630 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Amcacik.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-10-01 13:10:41,630 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Amcacik.Users.Dto.CreateUserDto
+DEBUG 2017-10-01 13:10:41,630 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Amcacik.Users.Dto.UpdateUserDto
+DEBUG 2017-10-01 13:10:41,630 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Amcacik.Users.Dto.UserDto
+DEBUG 2017-10-01 13:10:41,630 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Amcacik.Roles.Dto.CreateRoleDto
+DEBUG 2017-10-01 13:10:41,630 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Amcacik.Roles.Dto.PermissionDto
+DEBUG 2017-10-01 13:10:41,630 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Amcacik.Roles.Dto.RoleDto
+DEBUG 2017-10-01 13:10:41,630 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Amcacik.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-10-01 13:10:41,631 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Amcacik.MultiTenancy.Dto.EditTenantDto
+DEBUG 2017-10-01 13:10:41,631 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Amcacik.MultiTenancy.Dto.TenantDto
+DEBUG 2017-10-01 13:10:41,631 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Amcacik.Web.Models.Account.TenantChangeViewModel
+DEBUG 2017-10-01 13:10:41,631 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Amcacik.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-10-01 13:10:43,921 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Amcacik.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-10-01 13:10:43,923 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Amcacik.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-10-01 13:10:43,923 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Amcacik.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-10-01 13:10:43,924 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Amcacik.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-10-01 13:10:43,925 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Amcacik.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2017-10-01 13:10:43,926 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Amcacik.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+WARN  2017-10-01 13:10:49,366 [10   ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   at System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   at Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   at Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   at Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2017-10-01 13:11:14,371 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"a8df9ec0-f9c3-4492-a375-59b7566f0e5f","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-10-01T13:11:14.3644746+03:00","Properties":{}}
+DEBUG 2017-10-01 13:11:14,418 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: a8df9ec0-f9c3-4492-a375-59b7566f0e5f
+WARN  2017-10-01 13:11:35,127 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Refresh' in localization source 'Amcacik'!
+DEBUG 2017-10-01 13:11:45,947 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: a8df9ec0-f9c3-4492-a375-59b7566f0e5f
+DEBUG 2017-10-01 13:11:48,718 [31   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"04058bd8-38c0-4487-a890-cede01422c64","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-10-01T13:11:48.7186703+03:00","Properties":{}}
+DEBUG 2017-10-01 13:11:48,739 [28   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 04058bd8-38c0-4487-a890-cede01422c64
+DEBUG 2017-10-01 13:19:57,182 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-10-01 13:19:57,197 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2017-10-01 13:19:57,205 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Amcacik.Web.AmcacikWebModule, Amcacik.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:19:57,207 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Amcacik.AmcacikDataModule, Amcacik.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:19:57,207 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:19:57,207 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:19:57,207 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:19:57,208 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:19:57,208 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:19:57,208 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:19:57,208 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Amcacik.AmcacikCoreModule, Amcacik.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:19:57,208 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Amcacik.AmcacikApplicationModule, Amcacik.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:19:57,209 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:19:57,209 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Amcacik.Api.AmcacikWebApiModule, Amcacik.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:19:57,209 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:19:57,209 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:19:57,209 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:19:57,209 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:19:57,210 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:19:57,213 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2017-10-01 13:19:57,511 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-10-01 13:19:57,511 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-10-01 13:19:57,511 [1    ] o.Configuration.LanguageManagementConfig - Converted Amcacik (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-10-01 13:19:57,511 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-10-01 13:19:57,934 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Amcacik.EntityFramework.AmcacikDbContext, Amcacik.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:20:00,683 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-10-01 13:20:00,716 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-10-01 13:20:00,732 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-10-01 13:20:00,735 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Amcacik
+DEBUG 2017-10-01 13:20:00,737 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-10-01 13:20:00,867 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-10-01 13:20:00,943 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2017-10-01 13:20:00,943 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Amcacik.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-10-01 13:20:00,946 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Amcacik.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-10-01 13:20:00,947 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Amcacik.Users.Dto.CreateUserDto
+DEBUG 2017-10-01 13:20:00,947 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Amcacik.Users.Dto.UpdateUserDto
+DEBUG 2017-10-01 13:20:00,947 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Amcacik.Users.Dto.UserDto
+DEBUG 2017-10-01 13:20:00,947 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Amcacik.Roles.Dto.CreateRoleDto
+DEBUG 2017-10-01 13:20:00,947 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Amcacik.Roles.Dto.PermissionDto
+DEBUG 2017-10-01 13:20:00,947 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Amcacik.Roles.Dto.RoleDto
+DEBUG 2017-10-01 13:20:00,947 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Amcacik.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-10-01 13:20:00,947 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Amcacik.MultiTenancy.Dto.EditTenantDto
+DEBUG 2017-10-01 13:20:00,947 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Amcacik.MultiTenancy.Dto.TenantDto
+DEBUG 2017-10-01 13:20:00,947 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Amcacik.Web.Models.Account.TenantChangeViewModel
+DEBUG 2017-10-01 13:20:00,947 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Amcacik.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-10-01 13:20:03,257 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Amcacik.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-10-01 13:20:03,258 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Amcacik.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-10-01 13:20:03,260 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Amcacik.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-10-01 13:20:03,262 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Amcacik.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-10-01 13:20:03,263 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Amcacik.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2017-10-01 13:20:03,264 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Amcacik.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+WARN  2017-10-01 13:20:09,378 [9    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Kullanýcý giriþi yapýlmamýþ!
+   konum: Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- Özel durumun oluþturulduðu önceki konumdan baþlayan yýðýn izlemesinin sonu ---
+   konum: System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   konum: System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   konum: Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- Özel durumun oluþturulduðu önceki konumdan baþlayan yýðýn izlemesinin sonu ---
+   konum: System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   konum: System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   konum: Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- Özel durumun oluþturulduðu önceki konumdan baþlayan yýðýn izlemesinin sonu ---
+   konum: System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   konum: System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   konum: Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   konum: Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   konum: System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   konum: System.Threading.Tasks.Task.Execute()
+--- Özel durumun oluþturulduðu önceki konumdan baþlayan yýðýn izlemesinin sonu ---
+   konum: System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   konum: System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   konum: Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   konum: Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   konum: Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   konum: Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Kullanýcý giriþi yapýlmamýþ!
+   konum: Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- Özel durumun oluþturulduðu önceki konumdan baþlayan yýðýn izlemesinin sonu ---
+   konum: System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   konum: System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   konum: Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- Özel durumun oluþturulduðu önceki konumdan baþlayan yýðýn izlemesinin sonu ---
+   konum: System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   konum: System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   konum: Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- Özel durumun oluþturulduðu önceki konumdan baþlayan yýðýn izlemesinin sonu ---
+   konum: System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   konum: System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   konum: Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   konum: Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   konum: System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   konum: System.Threading.Tasks.Task.Execute()
+--- Özel durumun oluþturulduðu önceki konumdan baþlayan yýðýn izlemesinin sonu ---
+   konum: System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   konum: System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   konum: Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException(Task task)
+   konum: Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   konum: Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo, Type type)
+   konum: Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+WARN  2017-10-01 13:20:31,480 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Customers' in localization source 'Amcacik'!
+WARN  2017-10-01 13:20:31,481 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'Inventory' in localization source 'Amcacik'!
+DEBUG 2017-10-01 13:20:32,741 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"35329484-4d4e-49b5-8805-52891b816e14","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-10-01T13:20:32.7346894+03:00","Properties":{}}
+DEBUG 2017-10-01 13:20:32,803 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 35329484-4d4e-49b5-8805-52891b816e14
+WARN  2017-10-01 13:20:39,464 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'Refresh' in localization source 'Amcacik'!
+DEBUG 2017-10-01 13:21:57,791 [9    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-10-01 13:21:57,792 [9    ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-10-01 13:21:57,793 [9    ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-10-01 13:21:57,793 [9    ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-10-01 13:22:03,156 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-10-01 13:22:03,432 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2017-10-01 13:22:03,446 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Amcacik.Web.AmcacikWebModule, Amcacik.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:22:03,449 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Amcacik.AmcacikDataModule, Amcacik.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:22:03,449 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:22:03,450 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:22:03,450 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:22:03,450 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:22:03,451 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:22:03,451 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:22:03,452 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Amcacik.AmcacikCoreModule, Amcacik.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:22:03,452 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Amcacik.AmcacikApplicationModule, Amcacik.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:22:03,452 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:22:03,453 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Amcacik.Api.AmcacikWebApiModule, Amcacik.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:22:03,453 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:22:03,453 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:22:03,453 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:22:03,454 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:22:03,454 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:22:03,459 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2017-10-01 13:22:04,308 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-10-01 13:22:04,308 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-10-01 13:22:04,308 [1    ] o.Configuration.LanguageManagementConfig - Converted Amcacik (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-10-01 13:22:04,308 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-10-01 13:22:04,791 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Amcacik.EntityFramework.AmcacikDbContext, Amcacik.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:22:05,689 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-10-01 13:22:05,696 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-10-01 13:22:05,703 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-10-01 13:22:05,704 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Amcacik
+DEBUG 2017-10-01 13:22:05,705 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-10-01 13:22:05,813 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-10-01 13:22:05,864 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2017-10-01 13:22:05,864 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Amcacik.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-10-01 13:22:05,867 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Amcacik.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-10-01 13:22:05,867 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Amcacik.Users.Dto.CreateUserDto
+DEBUG 2017-10-01 13:22:05,868 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Amcacik.Users.Dto.UpdateUserDto
+DEBUG 2017-10-01 13:22:05,868 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Amcacik.Users.Dto.UserDto
+DEBUG 2017-10-01 13:22:05,868 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Amcacik.Roles.Dto.CreateRoleDto
+DEBUG 2017-10-01 13:22:05,868 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Amcacik.Roles.Dto.PermissionDto
+DEBUG 2017-10-01 13:22:05,868 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Amcacik.Roles.Dto.RoleDto
+DEBUG 2017-10-01 13:22:05,868 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Amcacik.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-10-01 13:22:05,868 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Amcacik.MultiTenancy.Dto.EditTenantDto
+DEBUG 2017-10-01 13:22:05,868 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Amcacik.MultiTenancy.Dto.TenantDto
+DEBUG 2017-10-01 13:22:05,868 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Amcacik.Web.Models.Account.TenantChangeViewModel
+DEBUG 2017-10-01 13:22:05,868 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Amcacik.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-10-01 13:22:08,196 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Amcacik.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-10-01 13:22:08,198 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Amcacik.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-10-01 13:22:08,199 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Amcacik.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-10-01 13:22:08,200 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Amcacik.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-10-01 13:22:08,201 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Amcacik.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2017-10-01 13:22:08,204 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Amcacik.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2017-10-01 13:22:19,346 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected (on reconnected event): {"ConnectionId":"35329484-4d4e-49b5-8805-52891b816e14","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-10-01T13:22:19.2915407+03:00","Properties":{}}
+DEBUG 2017-10-01 13:22:43,764 [9    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2017-10-01 13:22:43,770 [9    ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-10-01 13:22:43,774 [9    ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-10-01 13:22:43,774 [9    ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2017-10-01 13:22:47,502 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-10-01 13:22:47,866 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2017-10-01 13:22:47,881 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Amcacik.Web.AmcacikWebModule, Amcacik.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:22:47,882 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Amcacik.AmcacikDataModule, Amcacik.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:22:47,882 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:22:47,883 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:22:47,883 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:22:47,883 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:22:47,884 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:22:47,884 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:22:47,885 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Amcacik.AmcacikCoreModule, Amcacik.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:22:47,885 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Amcacik.AmcacikApplicationModule, Amcacik.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:22:47,886 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:22:47,886 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Amcacik.Api.AmcacikWebApiModule, Amcacik.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:22:47,886 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:22:47,886 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:22:47,887 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:22:47,887 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:22:47,887 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=3.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:22:47,891 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2017-10-01 13:22:48,424 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-10-01 13:22:48,424 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-10-01 13:22:48,425 [1    ] o.Configuration.LanguageManagementConfig - Converted Amcacik (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-10-01 13:22:48,425 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-10-01 13:22:48,793 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Amcacik.EntityFramework.AmcacikDbContext, Amcacik.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-10-01 13:22:49,768 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-10-01 13:22:49,770 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-10-01 13:22:49,774 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-10-01 13:22:49,776 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Amcacik
+DEBUG 2017-10-01 13:22:49,776 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-10-01 13:22:49,903 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-10-01 13:22:49,930 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 13 classes define auto mapping attributes
+DEBUG 2017-10-01 13:22:49,930 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Amcacik.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-10-01 13:22:49,930 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Amcacik.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-10-01 13:22:49,930 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Amcacik.Users.Dto.CreateUserDto
+DEBUG 2017-10-01 13:22:49,930 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Amcacik.Users.Dto.UpdateUserDto
+DEBUG 2017-10-01 13:22:49,930 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Amcacik.Users.Dto.UserDto
+DEBUG 2017-10-01 13:22:49,930 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Amcacik.Roles.Dto.CreateRoleDto
+DEBUG 2017-10-01 13:22:49,930 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Amcacik.Roles.Dto.PermissionDto
+DEBUG 2017-10-01 13:22:49,931 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Amcacik.Roles.Dto.RoleDto
+DEBUG 2017-10-01 13:22:49,931 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Amcacik.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-10-01 13:22:49,931 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Amcacik.MultiTenancy.Dto.EditTenantDto
+DEBUG 2017-10-01 13:22:49,931 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Amcacik.MultiTenancy.Dto.TenantDto
+DEBUG 2017-10-01 13:22:49,931 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Amcacik.Web.Models.Account.TenantChangeViewModel
+DEBUG 2017-10-01 13:22:49,931 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Amcacik.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-10-01 13:22:52,076 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Amcacik.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-10-01 13:22:52,077 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Amcacik.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-10-01 13:22:52,079 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Amcacik.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-10-01 13:22:52,080 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Amcacik.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-10-01 13:22:52,081 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Amcacik.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2017-10-01 13:22:52,082 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Amcacik.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2017-10-01 13:22:58,913 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected (on reconnected event): {"ConnectionId":"35329484-4d4e-49b5-8805-52891b816e14","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-10-01T13:22:58.9032275+03:00","Properties":{}}
+DEBUG 2017-10-01 13:23:43,964 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 35329484-4d4e-49b5-8805-52891b816e14
+WARN  2017-10-01 13:23:47,628 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'Customers' in localization source 'Amcacik'!
+WARN  2017-10-01 13:23:47,630 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'Inventory' in localization source 'Amcacik'!
+WARN  2017-10-01 13:23:48,501 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'Refresh' in localization source 'Amcacik'!
+DEBUG 2017-10-01 13:23:50,078 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"b8aea756-46e9-4a1e-b3bc-823da41f2599","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-10-01T13:23:50.0788055+03:00","Properties":{}}
+DEBUG 2017-10-01 13:23:50,170 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: b8aea756-46e9-4a1e-b3bc-823da41f2599
