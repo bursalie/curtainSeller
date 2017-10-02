@@ -1,0 +1,100 @@
+﻿<form id="frm_create_role" name="roleCreateForm" novalidate>
+    <div class="modal-header">
+        <button type="button" class="close" ng-click="vm.cancel()" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        <h4 class="modal-title">
+            <span>@L("CreateNewItem")</span>
+        </h4>
+    </div>
+    <div class="modal-body">
+        <div class="row clearfix">
+            <div class="col-sm-12">
+                <div class="form-group form-float">
+                    <div class="form-line">
+                        <input id="code" type="text" name="code" ng-model="vm.item.code" required maxlength="32" minlength="2" class="validate form-control">
+                        <label for="code" class="form-label">@L("Code")</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row clearfix">
+            <div class="col-sm-12">
+                <div class="form-group form-float">
+                    <div class="form-line">
+                        <input id="name" type="text" name="name" ng-model="vm.item.name" required maxlength="32" minlength="2" class="validate form-control">
+                        <label for="name" class="form-label">@L("Name")</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row clearfix">
+            <div class="col-sm-12">
+                <div class="form-group form-float">
+                    <div class="form-line">
+                        <input id="entrydatetime" type="text" name="entrydatetime" ng-model="vm.item.entrydatetime" required maxlength="32" minlength="2" class="validate form-control">
+                        <label for="entrydatetime" class="form-label">@L("EntryDatetime")</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row clearfix">
+            <div class="col-sm-12">
+                <div class="form-group form-float">
+                    <div class="form-line">
+                        <input id="exitdatetime" type="text" name="exitdatetime" ng-model="vm.item.exitdatetime" required maxlength="32" minlength="2" class="validate form-control">
+                        <label for="exitdatetime" class="form-label">@L("ExitDatetime")</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row clearfix">
+            <div class="col-sm-12">
+                <div class="form-group form-float">
+                    <div class="form-line">
+                        <input id="companyname" type="text" name="companyname" ng-model="vm.item.companyname" required maxlength="32" minlength="2" class="validate form-control">
+                        <label for="companyname" class="form-label">@L("CompanyName")</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row clearfix">
+            <div class="col-sm-12">
+                <div class="form-group form-float">
+                    <div class="form-line">
+                        <input id="packamount" type="text" name="packamount" ng-model="vm.item.packamount" required maxlength="32" minlength="2" class="validate form-control">
+                        <label for="packamount" class="form-label">@L("PackAmount")</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row clearfix">
+            <div class="col-sm-12">
+                <div class="form-group form-float">
+                    <div class="form-line">
+                        <input id="metrage" type="text" name="metrage" ng-model="vm.item.metrage" required maxlength="32" minlength="2" class="validate form-control">
+                        <label for="metrage" class="form-label">@L("Metrage")</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row clearfix">
+            <div class="col-sm-12">
+                <div class="form-group form-float">
+                    <div class="form-line">
+                        <input id="totalamount" type="text" name="totalamount" ng-model="vm.item.totalamount" required maxlength="32" minlength="2" class="validate form-control">
+                        <label for="totalamount" class="form-label">@L("TotalAmount")</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default waves-effect" ng-click="vm.cancel()">
+            @L("Cancel")
+        </button>
+        <button type="submit" class="btn btn-primary waves-effect" ng-click="vm.save()" ng-disabled="roleCreateForm.$invalid">
+            @L("Save")
+        </button>
+    </div>
+</form>

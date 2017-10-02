@@ -1,21 +1,21 @@
 ﻿(function () {
     angular.module('app').controller('app.views.inventory.index', [
-        '$scope', '$uibModal', 'abp.services.app.role',
-        function ($scope, $uibModal, roleService) {
+        '$scope', '$uibModal', 'abp.services.app.inventory',
+        function ($scope, $uibModal, inventoryService) {
             var vm = this;
 
             vm.items = [];
 
             function getItems() {
-                roleService.getAll({}).then(function (result) {
-                    vm.roles = result.data.items;
+                inventoryService.getAll({}).then(function (result) {
+                    vm.items = result.data.items;
                 });
             }
 
-            vm.openRoleCreationModal = function () {
+            vm.openInventoryCreationModal = function () {
                 var modalInstance = $uibModal.open({
-                    templateUrl: '/App/Main/views/roles/createModal.cshtml',
-                    controller: 'app.views.roles.createModal as vm',
+                    templateUrl: '/App/Main/views/inventory/createModal.cshtml',
+                    controller: 'app.views.inventory.createModal as vm',
                     backdrop: 'static'
                 });
 
@@ -28,14 +28,14 @@
                 });
             };
 
-            vm.openRoleEditModal = function (role) {
+            vm.openInventoryEditModal = function (item) {
                 var modalInstance = $uibModal.open({
-                    templateUrl: '/App/Main/views/roles/editModal.cshtml',
-                    controller: 'app.views.roles.editModal as vm',
+                    templateUrl: '/App/Main/views/inventory/editModal.cshtml',
+                    controller: 'app.views.inventory.editModal as vm',
                     backdrop: 'static',
                     resolve: {
                         id: function () {
-                            return role.id;
+                            return item.id;
                         }
                     }
                 });
@@ -49,14 +49,14 @@
                 });
             };
 
-            vm.delete = function (role) {
+            vm.delete = function (item) {
                 abp.message.confirm(
-                    "Delete role '" + role.name + "'?",
+                    "Delete item '" + item.name + "'?",
                     function (result) {
                         if (result) {
-                            roleService.delete({ id: role.id })
+                            inventoryService.delete({ id: item.id })
                                 .then(function () {
-                                    abp.notify.info("Deleted role: " + role.name);
+                                    abp.notify.info("Deleted item: " + item.name);
                                     getItems();
                                 });
                         }

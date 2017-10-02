@@ -9,7 +9,7 @@ using Abp.AutoMapper;
 namespace Amcacik.Inventory.Dto
 {
     [AutoMap(typeof(Inventory))]
-    public class InventoryDto:EntityDto
+    public class InventoryDto:FullAuditedEntityDto
     {
         public string Code { get; set; }
         public string Name { get; set; }
