@@ -76,5 +76,24 @@
     <text name="EditUser">Kullanıcı Düenle</text>
     <text name="Edit">Düzenle</text>
     <text name="Delete">Sil</text>
+
+    <text name="Customers" value="Müşteriler" />
+    <text name="CreateNewCustomer" value="Yeni Müşteri" />
+    <text name="CustomerNo" value="Müşteri No" />
+    <text name="CustomerName" value="Müşteri Adı" />
+    <text name="Phone" value="Telefon" />
+    <text name="Address" value="Adres" />
+    <text name="TotalAmount" value="Toplam Tutar" />
+    <text name="EditCustomer" value="Müşteri Düzenle" />
+
+    <text name="Inventory" value="Envanter" />
+    <text name="CreateNewItem" value="Yeni Ürün Ekle" />
+    <text name="Code" value="Kod" />
+    <text name="EntryDatetime" value="Giriş Tarihi" />
+    <text name="ExitDatetime" value="Çıkış Tarihi" />
+    <text name="CompanyName" value="Firma Adı" />
+    <text name="PackAmount" value="Top Sayısı" />
+    <text name="Metrage" value="Metraj" />
+    <text name="EditItem" value="Ürün Düzenle" />
   </texts>
 </localizationDictionary>

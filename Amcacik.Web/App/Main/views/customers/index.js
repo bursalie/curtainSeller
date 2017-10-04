@@ -7,7 +7,11 @@
             vm.customers = [];
 
             function getCustomers() {
-                customerService.getAll({}).then(function (result) {
+                customerService.getAll({
+                    "sorting": "id desc",
+                    "skipCount": 0,
+                    "maxResultCount": 1000000
+                }).then(function (result) {
                     vm.customers = result.data.items;
                 });
             }

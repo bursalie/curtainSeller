@@ -7,13 +7,13 @@ namespace Amcacik.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class Initial_Migration : IMigrationMetadata
+    public sealed partial class firstset : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(Initial_Migration));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(firstset));
         
         string IMigrationMetadata.Id
         {
-            get { return "201707261347311_Initial_Migration"; }
+            get { return "201710042019240_firstset"; }
         }
         
         string IMigrationMetadata.Source

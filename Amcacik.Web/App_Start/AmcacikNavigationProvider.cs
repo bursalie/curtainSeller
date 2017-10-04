@@ -39,32 +39,31 @@ namespace Amcacik.Web
                         icon: "fa fa-globe",
                         requiredPermissionName: PermissionNames.Pages_Tenants
                     )
+                ).AddItem(
+                    new MenuItemDefinition(
+                        "Tenants",
+                        L("Tenants"),
+                        url: "#tenants",
+                        icon: "fa fa-globe",
+                        requiredPermissionName: PermissionNames.Pages_Tenants
+                        )
+                ).AddItem(
+                    new MenuItemDefinition(
+                        "Users",
+                        L("Users"),
+                        url: "#users",
+                        icon: "fa fa-users",
+                        requiredPermissionName: PermissionNames.Pages_Users
+                        )
+                ).AddItem(
+                    new MenuItemDefinition(
+                        "Roles",
+                        L("Roles"),
+                        url: "#users",
+                        icon: "fa fa-tag",
+                        requiredPermissionName: PermissionNames.Pages_Roles
+                    )
                 )
-                //).AddItem(
-                //    new MenuItemDefinition(
-                //        "Tenants",
-                //        L("Tenants"),
-                //        url: "#tenants",
-                //        icon: "fa fa-globe",
-                //        requiredPermissionName: PermissionNames.Pages_Tenants
-                //        )
-                //).AddItem(
-                //    new MenuItemDefinition(
-                //        "Users",
-                //        L("Users"),
-                //        url: "#users",
-                //        icon: "fa fa-users",
-                //        requiredPermissionName: PermissionNames.Pages_Users
-                //        )
-                //).AddItem(
-                //    new MenuItemDefinition(
-                //        "Roles",
-                //        L("Roles"),
-                //        url: "#users",
-                //        icon: "fa fa-tag",
-                //        requiredPermissionName: PermissionNames.Pages_Roles
-                //    )
-                //)
                 .AddItem(
                     new MenuItemDefinition(
                         "About",

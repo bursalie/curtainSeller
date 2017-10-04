@@ -4,6 +4,7 @@ using Abp.Zero.EntityFramework;
 using Amcacik.Authorization.Roles;
 using Amcacik.Authorization.Users;
 using Amcacik.Customers;
+using Amcacik.Inventories;
 using Amcacik.MultiTenancy;
 
 namespace Amcacik.EntityFramework
@@ -46,7 +47,7 @@ namespace Amcacik.EntityFramework
 
         }
 
-        public IDbSet<Customer> Customers;
-        public IDbSet<Inventory.Inventory> Inventories;
+        public IDbSet<Customer> Customers { get; set; }
+        public IDbSet<Inventory> Inventories { get; set; }
     }
 }

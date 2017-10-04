@@ -78,5 +78,23 @@
     <text name="Delete">Delete</text>
 
 
+    <text name="Customers" value="Customers" />
+    <text name="CreateNewCustomer" value="Create New Customer" />
+    <text name="CustomerNo" value="Customer No" />
+    <text name="CustomerName" value="Customer Name" />
+    <text name="Phone" value="Phone" />
+    <text name="Address" value="Address" />
+    <text name="TotalAmount" value="Total Amount" />
+    <text name="EditCustomer" value="Edit Customer" />
+
+    <text name="Inventory" value="Inventory" />
+    <text name="CreateNewItem" value="Create New Item" />
+    <text name="Code" value="Code" />
+    <text name="EntryDatetime" value="Entry Datetime" />
+    <text name="ExitDatetime" value="Exit Datetime" />
+    <text name="CompanyName" value="Company Name" />
+    <text name="PackAmount" value="Pack Amount" />
+    <text name="Metrage" value="Metrage" />
+    <text name="EditItem" value="Edit Item" />
   </texts>
 </localizationDictionary>

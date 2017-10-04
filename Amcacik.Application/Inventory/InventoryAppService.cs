@@ -10,11 +10,11 @@ using System.Text;
 using System.Threading.Tasks;
 using Abp.Linq.Extensions;
 
-namespace Amcacik.Customers
+namespace Amcacik.Inventories
 {
-    public class CustomerAppService : AsyncCrudAppService<Customer, CustomerDto>, ICustomerAppService
+    public class InventoryAppService : AsyncCrudAppService<Inventory, InventoryDto>, IInventoryAppService
     {
-        public CustomerAppService(IRepository<Customer> repository) : base(repository)
+        public InventoryAppService(IRepository<Inventory> repository) : base(repository)
         {
             
         }

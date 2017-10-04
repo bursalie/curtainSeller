@@ -202,7 +202,9 @@
     <Compile Include="Customers\CustomerAppService.cs" />
     <Compile Include="Customers\Dto\CustomerDto.cs" />
     <Compile Include="Customers\ICustomerAppService.cs" />
+    <Compile Include="Inventory\InventoryAppService.cs" />
     <Compile Include="Inventory\Dto\InventoryDto.cs" />
+    <Compile Include="Inventory\IInventoryAppService.cs" />
     <Compile Include="MultiTenancy\Dto\CreateTenantDto.cs" />
     <Compile Include="MultiTenancy\Dto\EditTenantDto.cs" />
     <Compile Include="MultiTenancy\Dto\TenantDto.cs" />

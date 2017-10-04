@@ -8,7 +8,7 @@ using Abp.Domain.Entities.Auditing;
 
 namespace Amcacik.Customers
 {
-    public class Customer:FullAuditedEntity
+    public class Customer:FullAuditedEntity<int>
     {
         public string No { get; set; }
         public string Name { get; set; }

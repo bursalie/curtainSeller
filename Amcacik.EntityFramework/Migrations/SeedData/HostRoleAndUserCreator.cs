@@ -66,7 +66,7 @@ namespace Amcacik.Migrations.SeedData
                         UserName = User.AdminUserName,
                         Name = "System",
                         Surname = "Administrator",
-                        EmailAddress = "admin@aspnetboilerplate.com",
+                        EmailAddress = "admin@amcacikticaret.com",
                         IsEmailConfirmed = true,
                         Password = new PasswordHasher().HashPassword(User.DefaultPassword)
                     });

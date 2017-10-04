@@ -5,7 +5,7 @@ namespace Amcacik.Migrations
     using System.Data.Entity.Infrastructure.Annotations;
     using System.Data.Entity.Migrations;
     
-    public partial class Initial_Migration : DbMigration
+    public partial class firstset : DbMigration
     {
         public override void Up()
         {
@@ -54,6 +54,30 @@ namespace Amcacik.Migrations
                 .Index(t => new { t.IsAbandoned, t.NextTryTime });
             
             CreateTable(
+                "dbo.Customers",
+                c => new
+                    {
+                        Id = c.Int(nullable: false, identity: true),
+                        No = c.String(),
+                        Name = c.String(),
+                        Phone = c.String(),
+                        Address = c.String(),
+                        TotalAmount = c.Decimal(nullable: false, precision: 18, scale: 2),
+                        IsDeleted = c.Boolean(nullable: false),
+                        DeleterUserId = c.Long(),
+                        DeletionTime = c.DateTime(),
+                        LastModificationTime = c.DateTime(),
+                        LastModifierUserId = c.Long(),
+                        CreationTime = c.DateTime(nullable: false),
+                        CreatorUserId = c.Long(),
+                    },
+                annotations: new Dictionary<string, object>
+                {
+                    { "DynamicFilter_Customer_SoftDelete", "EntityFramework.DynamicFilters.DynamicFilterDefinition" },
+                })
+                .PrimaryKey(t => t.Id);
+            
+            CreateTable(
                 "dbo.AbpFeatures",
                 c => new
                     {
@@ -92,6 +116,33 @@ namespace Amcacik.Migrations
                 annotations: new Dictionary<string, object>
                 {
                     { "DynamicFilter_Edition_SoftDelete", "EntityFramework.DynamicFilters.DynamicFilterDefinition" },
+                })
+                .PrimaryKey(t => t.Id);
+            
+            CreateTable(
+                "dbo.Inventories",
+                c => new
+                    {
+                        Id = c.Int(nullable: false, identity: true),
+                        Code = c.String(),
+                        Name = c.String(),
+                        EntryDateTime = c.DateTime(nullable: false),
+                        ExitDateTime = c.DateTime(nullable: false),
+                        CompanyName = c.String(),
+                        PackAmount = c.Int(nullable: false),
+                        Metrage = c.Decimal(nullable: false, precision: 18, scale: 2),
+                        TotalAmount = c.Decimal(nullable: false, precision: 18, scale: 2),
+                        IsDeleted = c.Boolean(nullable: false),
+                        DeleterUserId = c.Long(),
+                        DeletionTime = c.DateTime(),
+                        LastModificationTime = c.DateTime(),
+                        LastModifierUserId = c.Long(),
+                        CreationTime = c.DateTime(nullable: false),
+                        CreatorUserId = c.Long(),
+                    },
+                annotations: new Dictionary<string, object>
+                {
+                    { "DynamicFilter_Inventory_SoftDelete", "EntityFramework.DynamicFilters.DynamicFilterDefinition" },
                 })
                 .PrimaryKey(t => t.Id);
             
@@ -418,8 +469,8 @@ namespace Amcacik.Migrations
                     {
                         Id = c.Int(nullable: false, identity: true),
                         EditionId = c.Int(),
-                        Name = c.String(nullable: false, maxLength: 128),
                         TenancyName = c.String(nullable: false, maxLength: 64),
+                        Name = c.String(nullable: false, maxLength: 128),
                         ConnectionString = c.String(maxLength: 1024),
                         IsActive = c.Boolean(nullable: false),
                         IsDeleted = c.Boolean(nullable: false),
@@ -667,6 +718,11 @@ namespace Amcacik.Migrations
                     { "DynamicFilter_ApplicationLanguage_MayHaveTenant", "EntityFramework.DynamicFilters.DynamicFilterDefinition" },
                     { "DynamicFilter_ApplicationLanguage_SoftDelete", "EntityFramework.DynamicFilters.DynamicFilterDefinition" },
                 });
+            DropTable("dbo.Inventories",
+                removedAnnotations: new Dictionary<string, object>
+                {
+                    { "DynamicFilter_Inventory_SoftDelete", "EntityFramework.DynamicFilters.DynamicFilterDefinition" },
+                });
             DropTable("dbo.AbpEditions",
                 removedAnnotations: new Dictionary<string, object>
                 {
@@ -676,6 +732,11 @@ namespace Amcacik.Migrations
                 removedAnnotations: new Dictionary<string, object>
                 {
                     { "DynamicFilter_TenantFeatureSetting_MustHaveTenant", "EntityFramework.DynamicFilters.DynamicFilterDefinition" },
+                });
+            DropTable("dbo.Customers",
+                removedAnnotations: new Dictionary<string, object>
+                {
+                    { "DynamicFilter_Customer_SoftDelete", "EntityFramework.DynamicFilters.DynamicFilterDefinition" },
                 });
             DropTable("dbo.AbpBackgroundJobs");
             DropTable("dbo.AbpAuditLogs",

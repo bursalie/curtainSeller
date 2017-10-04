@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 using Abp.Application.Services.Dto;
 using Abp.AutoMapper;
 
-namespace Amcacik.Inventory.Dto
+namespace Amcacik.Inventories
 {
     [AutoMap(typeof(Inventory))]
-    public class InventoryDto:FullAuditedEntityDto
+    public class InventoryDto:FullAuditedEntityDto<int>
     {
         public string Code { get; set; }
         public string Name { get; set; }

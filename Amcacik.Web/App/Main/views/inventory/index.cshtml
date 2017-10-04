@@ -43,8 +43,8 @@
                                 </a>
                             </th>
                             <th>@L("DisplayName")</th>
-                            <th>@L("EntryDateTime")</th>
-                            <th>@L("ExitDateTime")</th>
+                            <th>@L("EntryDatetime")</th>
+                            <th>@L("ExitDatetime")</th>
                             <th>@L("CompanyName")</th>
                             <th>@L("PackAmount")</th>
                             <th>@L("Metrage")</th>
@@ -56,12 +56,12 @@
                         <tr ng-repeat="item in vm.items| orderBy:sortType:sortReverse| filter:searchFish">
                             <td>{{item.code}}</td>
                             <td>{{item.name}}</td>
-                            <td>{{item.enrtydatetime}}</td>
-                            <td>{{item.exitdatetime}}</td>
-                            <td>{{item.companyname}}</td>
-                            <td>{{item.packamount}}</td>
+                            <td>{{item.entryDateTime}}</td>
+                            <td>{{item.exitDateTime}}</td>
+                            <td>{{item.companyName}}</td>
+                            <td>{{item.packAmount}}</td>
                             <td>{{item.metrage}}</td>
-                            <td>{{item.totalamount}}</td>
+                            <td>{{item.totalAmount}}</td>
                             <td class="dropdown">
                                 <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                                     <i class="material-icons">menu</i>
